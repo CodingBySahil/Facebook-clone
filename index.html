@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- faveicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <!-- custom css -->
     <link rel="stylesheet" href="style.css">
     <title>Facebook Clone</title>
 </head>
@@ -16,7 +27,7 @@
 <body>
     <nav>
         <div class="nav-left">
-            <img src="./images/logo.png" alt="Logo">
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search Facebook..">
         </div>
 
@@ -57,7 +68,7 @@
             <ul>
                 <li>
                     <span class="profile"></span>
-                    <p>Aashish Panthi</p>
+                    <p>Muhammad Sahil</p>
                 </li>
                 <li>
                     <i class="fa fa-user-friends"></i>
@@ -120,7 +131,7 @@
 
                 <div class="story create">
                     <div class="dp-image">
-                        <img src="./images/dp.jpg" alt="Profile pic">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="Profile pic">
                     </div>
                     <span class="dp-container">
                         <i class="fa fa-plus"></i>
@@ -130,46 +141,52 @@
 
 
                 <div class="story">
-                    <img src="./images/model.jpg" alt="Anuska's story">
+                    <img src="./images/profilePicture/ihsan.jpg" alt="Ihsan's story">
                     <div class="dp-container">
-                        <img src="./images/girl.jpg" alt="">
+                        <img src="./images/profilePicture/ihsan.jpg" alt="">
                     </div>
-                    <p class="name">Anuska Sharma</p>
+                    <p class="name">Ihsan Ullah</p>
                 </div>
 
                 <div class="story">
-                    <img src="./images/boy.jpg" alt="Story image">
+                    <img src="./images/postImages/post (1).png" alt="Story image">
                     <span class="dp-container">
-                        <img src="./images/dp.jpg" alt="Profile pic">
+                        <img src="./images/profilePicture/dp3.jpg" alt="Profile pic">
                     </span>
-                    <span class="name">Gaurav Gall</span>
+                    <span class="name">Sahil</span>
                 </div>
 
-                <div class="story">
-                    <img src="./images/mountains.jpg" alt="Story image">
-                    <span class="dp-container">
-                        <img src="./images/boy.jpg" alt="Profile pic">
-                    </span>
-                    <span class="name">Priyank Saksena</span>
-                </div>
+                
 
                 <div class="story">
-                    <img src="./images/shoes.jpg" alt="Story image">
+                    <img src="./images/postImages/post (2).png" alt="Story image">
                     <span class="dp-container">
-                        <img src="./images/model.jpg" alt="Profile pic">
+                        <img src="./images/profilePicture/dp4.jpg" alt="Profile pic">
                     </span>
-                    <span class="name">Pragati Adhikari</span>
+                    <span class="name">Sahil Sahil</span>
                 </div>
+
+                
+
+                <div class="story">
+                    <img src="./images/postImages/post (3).png" alt="Story image">
+                    <span class="dp-container">
+                        <img src="./images/profilePicture/dp5.jpg" alt="Profile pic">
+                    </span>
+                    <span class="name">It's Sahil</span>
+                </div>
+
+                
             </div>
 
             <div class="post create">
                 <div class="post-top">
                     <div class="dp">
-                        <img src="./images/girl.jpg" alt="">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="">
                     </div>
-                    <input type="text" placeholder="What's on your mind, Aashish ?" />
+                    <input type="text" placeholder="What's on your mind, Muhammad Sahil ?" />
                 </div>
-                
+
                 <div class="post-bottom">
                     <div class="action">
                         <i class="fa fa-video"></i>
@@ -185,25 +202,27 @@
                     </div>
                 </div>
             </div>
+            <!-- Posts started from here -->
 
+            
             <div class="post">
                 <div class="post-top">
                     <div class="dp">
-                        <img src="./images/girl.jpg" alt="">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="">
                     </div>
                     <div class="post-info">
-                        <p class="name">Anuska Sharma</p>
+                        <p class="name">Muhammad Sahil</p>
                         <span class="time">12 hrs ago</span>
                     </div>
                     <i class="fas fa-ellipsis-h"></i>
                 </div>
 
                 <div class="post-content">
-                    Roses are red <br>
-                    Violets are blue <br>
-                    I'm ugly & you are too😏
+                    Hello all friends<br>
+                    Welcome to my Facebook clone <br>
+                    May ALLAH grant us success😏
                 </div>
-                
+
                 <div class="post-bottom">
                     <div class="action">
                         <i class="far fa-thumbs-up"></i>
@@ -220,23 +239,56 @@
                 </div>
             </div>
 
+
             <div class="post">
                 <div class="post-top">
                     <div class="dp">
-                        <img src="./images/dp.jpg" alt="">
+                        <img src="./images/profilePicture/asim.JPG" alt="">
                     </div>
                     <div class="post-info">
-                        <p class="name">Ramesh GC</p>
+                        <p class="name">Muhammad Asim</p>
+                        <span class="time">1 week ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    My Brother Muhammad Asim. a BS Computer Science student and full stack web developer
+                    <img src="./images/profilePicture/asim.JPG" alt="Mountains">
+                </div>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/ihsan.jpg" alt="Ihsan Post">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Sahil</p>
                         <span class="time">2 days ago</span>
                     </div>
                     <i class="fas fa-ellipsis-h"></i>
                 </div>
 
                 <div class="post-content">
-                    Mountains are so cool
-                    <img src="images/mountains.jpg" />
+                    Meet my friend Ihsan Afridi
+                    <img src="images/profilePicture/ihsan.jpg" />
                 </div>
-                
+
                 <div class="post-bottom">
                     <div class="action">
                         <i class="far fa-thumbs-up"></i>
@@ -253,51 +305,22 @@
                 </div>
             </div>
 
-            <div class="post">
-                <div class="post-top">
-                    <div class="dp">
-                        <img src="./images/boy.jpg" alt="">
-                    </div>
-                    <div class="post-info">
-                        <p class="name">Priyank Saksena</p>
-                        <span class="time">1 week ago</span>
-                    </div>
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div class="post-content">
-                    Happy birthday dear
-                    <img src="./images/girl_with_light.jpg" alt="Mountains">
-                </div>
-                <div class="post-bottom">
-                    <div class="action">
-                        <i class="far fa-thumbs-up"></i>
-                        <span>Like</span>
-                    </div>
-                    <div class="action">
-                        <i class="far fa-comment"></i>
-                        <span>Comment</span>
-                    </div>
-                    <div class="action">
-                        <i class="fa fa-share"></i>
-                        <span>Share</span>
-                    </div>
-                </div>
-            </div>
+            
 
             <div class="post">
                 <div class="post-top">
                     <div class="dp">
-                        <img src="./images/model.jpg" alt="">
+                        <img src="./images/profilePicture/dp4.jpg" alt="">
                     </div>
                     <div class="post-info">
-                        <p class="name">Pragati Adhikari</p>
+                        <p class="name">Sahil Sahil</p>
                         <span class="time">5 mins ago</span>
                     </div>
                     <i class="fas fa-ellipsis-h"></i>
                 </div>
                 <div class="post-content">
                     Hey, everybody! My new shoes are here
-                    <img src="./images/shoes.jpg" alt="Shoes">
+                    <img src="./images/postImages/post (5).png" alt="Shoes">
                 </div>
                 <div class="post-bottom">
                     <div class="action">
@@ -314,23 +337,295 @@
                     </div>
                 </div>
             </div>
+
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Sahil</p>
+                        <span class="time">12 hrs ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="post-content">
+                    Hello all friends<br>
+                    Welcome to my Facebook clone <br>
+                    May ALLAH grant us success😏
+                </div>
+
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/asim.JPG" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Asim</p>
+                        <span class="time">1 week ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    My Brother Muhammad Asim. a BS Computer Science student and full stack web developer
+                    <img src="./images/profilePicture/asim.JPG" alt="Mountains">
+                </div>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/ihsan.jpg" alt="Ihsan Post">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Sahil</p>
+                        <span class="time">2 days ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="post-content">
+                    Meet my friend Ihsan Afridi
+                    <img src="images/profilePicture/ihsan.jpg" />
+                </div>
+
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
             
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/dp4.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Sahil Sahil</p>
+                        <span class="time">5 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    Hey, everybody! My new shoes are here
+                    <img src="./images/postImages/post (5).png" alt="Shoes">
+                </div>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Sahil</p>
+                        <span class="time">12 hrs ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="post-content">
+                    Hello all friends<br>
+                    Welcome to my Facebook clone <br>
+                    May ALLAH grant us success😏
+                </div>
+
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/asim.JPG" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Asim</p>
+                        <span class="time">1 week ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    My Brother Muhammad Asim. a BS Computer Science student and full stack web developer
+                    <img src="./images/profilePicture/asim.JPG" alt="Mountains">
+                </div>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/ihsan.jpg" alt="Ihsan Post">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Muhammad Sahil</p>
+                        <span class="time">2 days ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="post-content">
+                    Meet my friend Ihsan Afridi
+                    <img src="images/profilePicture/ihsan.jpg" />
+                </div>
+
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/profilePicture/dp4.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Sahil Sahil</p>
+                        <span class="time">5 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    Hey, everybody! My new shoes are here
+                    <img src="./images/postImages/post (5).png" alt="Shoes">
+                </div>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- post ended here -->
         </div>
         <div class="right-panel">
             <div class="pages-section">
                 <h4>Your pages</h4>
                 <a class='page' href="#">
                     <div class="dp">
-                        <img src="./images/logo.png" alt="">
+                        <img src="./images/profilePicture/myPic.jpeg" alt="">
                     </div>
-                    <p class="name">Cody</p>
+                    <p class="name">Sahil</p>
                 </a>
 
                 <a class='page' href="#">
                     <div class="dp">
-                        <img src="./images/dp.jpg" alt="">
+                        <img src="./images/profilePicture/dp3.jpg" alt="">
                     </div>
-                    <p class="name">Cody Tutorials</p>
+                    <p class="name">codingBySAHIL</p>
                 </a>
             </div>
 
@@ -338,53 +633,53 @@
                 <h4>Friends</h4>
                 <a class='friend' href="#">
                     <div class="dp">
-                        <img src="./images/dp.jpg" alt="">
+                        <img src="./images/profilePicture/ihsan.jpg" alt="">
                     </div>
-                    <p class="name">Henry Mosely</p>
+                    <p class="name">Ihsan Ullah</p>
                 </a>
 
                 <a class='friend' href="#">
                     <div class="dp">
-                        <img src="./images/shoes.jpg" alt="">
+                        <img src="./images/profilePicture/asim.JPG" alt="">
                     </div>
-                    <p class="name">George</p>
+                    <p class="name">Muhammad Asim</p>
                 </a>
 
                 <a class="friend" href="#">
                     <div class="dp">
-                        <img src="./images/boy.jpg" alt="">
+                        <img src="./images/postImages/post (2).png" alt="">
                     </div>
-                    <p class="name">Aakash Malhotra</p>
+                    <p class="name">Faizan Shah</p>
                 </a>
 
                 <a class="friend" href="#">
                     <div class="dp">
-                        <img src="./images/model.jpg" alt="">
+                        <img src="./images/postImages/post (3).png" alt="">
                     </div>
-                    <p class="name">Ragini Khanna</p>
+                    <p class="name">Sidra Khan</p>
                 </a>
 
                 <a class="friend" href="#">
                     <div class="dp">
-                        <img src="./images/boy.jpg" alt="">
+                        <img src="./images/postImages/post (4).png" alt="">
                     </div>
-                    <p class="name">Justin Bieber</p>
+                    <p class="name">Akhtar King</p>
                 </a>
 
                 <a class="friend" href="#">
                     <div class="dp">
-                        <img src="./images/dp.jpg" alt="">
+                        <img src="./images/nature1.jpeg" alt="">
                     </div>
-                    <p class="name">Ramesh GC</p>
+                    <p class="name">Nature One</p>
                 </a>
 
                 <a class="friend" href="#">
                     <div class="dp">
-                        <img src="./images/model.jpg" alt="">
+                        <img src="./images/nature2.avif" alt="">
                     </div>
-                    <p class="name">Sajita Gurung</p>
+                    <p class="name">Nature Two</p>
                 </a>
-                
+
             </div>
         </div>
     </div>
