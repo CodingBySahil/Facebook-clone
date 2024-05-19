@@ -33,4 +33,4 @@ To run this project locally, follow these steps:
 
     cd Facebook-clone
 
-3. and double click the index.html file 
+3. and run the index.html file 
